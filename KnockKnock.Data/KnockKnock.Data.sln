@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Data", "KnockKnock.Data\KnockKnock.Data.csproj", "{A7EE32D1-B4A5-413A-BF0F-82DADB95755E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Models", "..\KnockKnock.Models\KnockKnock.Models.csproj", "{72ED44C9-622F-4228-98F2-626A170016B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnockDataConsole", "KnockKnockDataConsole\KnockKnockDataConsole.csproj", "{28162CBF-F350-44CA-8A2E-8A9FB88BCDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Data.Models", "KnockKnock.Data.Models\KnockKnock.Data.Models.csproj", "{43F77587-3408-4290-879E-C107ED944114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EE32D1-B4A5-413A-BF0F-82DADB95755E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EE32D1-B4A5-413A-BF0F-82DADB95755E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EE32D1-B4A5-413A-BF0F-82DADB95755E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EE32D1-B4A5-413A-BF0F-82DADB95755E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28162CBF-F350-44CA-8A2E-8A9FB88BCDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28162CBF-F350-44CA-8A2E-8A9FB88BCDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28162CBF-F350-44CA-8A2E-8A9FB88BCDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28162CBF-F350-44CA-8A2E-8A9FB88BCDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tsitfs:8080/tfs/tsi%20technology
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KnockKnock.Data\\KnockKnock.Data.csproj
+		SccProjectName1 = KnockKnock.Data
+		SccLocalPath1 = KnockKnock.Data
+		SccProjectUniqueName2 = ..\\KnockKnock.Models\\KnockKnock.Models.csproj
+		SccProjectName2 = ../KnockKnock.Models
+		SccLocalPath2 = ..\\KnockKnock.Models
+		SccProjectUniqueName3 = KnockKnockDataConsole\\KnockKnockDataConsole.csproj
+		SccProjectName3 = KnockKnockDataConsole
+		SccLocalPath3 = KnockKnockDataConsole
+		SccProjectUniqueName4 = KnockKnock.Data.Models\\KnockKnock.Data.Models.csproj
+		SccProjectName4 = KnockKnock.Data.Models
+		SccLocalPath4 = KnockKnock.Data.Models
+	EndGlobalSection
+EndGlobal

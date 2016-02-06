@@ -1,0 +1,5 @@
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Models\bin\Release\KnockKnock.Models.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Models\bin\Release\KnockKnock.Models.pdb
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Models\obj\Release\KnockKnock.Models.csprojResolveAssemblyReference.cache
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Models\obj\Release\KnockKnock.Models.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Models\obj\Release\KnockKnock.Models.pdb
