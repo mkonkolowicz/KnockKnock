@@ -1,0 +1,11 @@
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\KnockKnock.ServiceModel.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\KnockKnock.ServiceModel.pdb
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Common.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Interfaces.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Text.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Common.xml
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Interfaces.xml
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\bin\Release\ServiceStack.Text.xml
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\obj\Release\KnockKnock.ServiceModel.csprojResolveAssemblyReference.cache
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\obj\Release\KnockKnock.ServiceModel.dll
+C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.ServiceModel\obj\Release\KnockKnock.ServiceModel.pdb

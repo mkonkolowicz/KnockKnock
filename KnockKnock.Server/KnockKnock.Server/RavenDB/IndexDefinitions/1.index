@@ -1,0 +1,28 @@
+{
+  "IndexId": 1,
+  "Name": "Feed/ByLocationAndName",
+  "LockMode": "Unlock",
+  "IndexVersion": 0,
+  "Map": "from feed in docs.Feeds\nselect new {\n\t_ = AbstractIndexCreationTask.SpatialGenerate(\"Location\", ((double?)feed.Location.Latitude), ((double?)feed.Location.Longitude)),\n\tName = feed.Name\n}",
+  "Maps": [
+    "from feed in docs.Feeds\nselect new {\n\t_ = AbstractIndexCreationTask.SpatialGenerate(\"Location\", ((double?)feed.Location.Latitude), ((double?)feed.Location.Longitude)),\n\tName = feed.Name\n}"
+  ],
+  "Reduce": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": null,
+  "SuggestionsOptions": [],
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {},
+  "MaxIndexOutputsPerDocument": null,
+  "Type": "Map",
+  "DisableInMemoryIndexing": false,
+  "IsTestIndex": false,
+  "IsSideBySideIndex": false
+}

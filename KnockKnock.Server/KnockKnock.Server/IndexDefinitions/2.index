@@ -1,0 +1,28 @@
+{
+  "IndexId": 2,
+  "Name": "Knock/ByFeed",
+  "LockMode": "Unlock",
+  "IndexVersion": 0,
+  "Map": "from knock in docs.Knocks\nselect new {\n\tFeedId = knock.FeedId\n}",
+  "Maps": [
+    "from knock in docs.Knocks\nselect new {\n\tFeedId = knock.FeedId\n}"
+  ],
+  "Reduce": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": null,
+  "SuggestionsOptions": [],
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {},
+  "MaxIndexOutputsPerDocument": null,
+  "Type": "Map",
+  "DisableInMemoryIndexing": false,
+  "IsTestIndex": false,
+  "IsSideBySideIndex": false
+}

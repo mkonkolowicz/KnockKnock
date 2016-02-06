@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.Server\obj\Debug\Package\PackageTmp" />
+  <setAcl path="C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.Server\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\TFS\Area51\Scratchpad\HackIT 2016\KnockKnock.Server\KnockKnock.Server\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

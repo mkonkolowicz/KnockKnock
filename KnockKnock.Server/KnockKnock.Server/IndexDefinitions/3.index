@@ -1,0 +1,28 @@
+{
+  "IndexId": 3,
+  "Name": "Knock/ByLocation",
+  "LockMode": "Unlock",
+  "IndexVersion": 0,
+  "Map": "from knock in docs.Knocks\nselect new {\n\t_ = AbstractIndexCreationTask.SpatialGenerate(\"Location\", ((double?)knock.Location.Latitude), ((double?)knock.Location.Longitude))\n}",
+  "Maps": [
+    "from knock in docs.Knocks\nselect new {\n\t_ = AbstractIndexCreationTask.SpatialGenerate(\"Location\", ((double?)knock.Location.Latitude), ((double?)knock.Location.Longitude))\n}"
+  ],
+  "Reduce": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": null,
+  "SuggestionsOptions": [],
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {},
+  "MaxIndexOutputsPerDocument": null,
+  "Type": "Map",
+  "DisableInMemoryIndexing": false,
+  "IsTestIndex": false,
+  "IsSideBySideIndex": false
+}

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Server", "KnockKnock.Server\KnockKnock.Server.csproj", "{27E1E699-E21D-48B3-A4CE-9507C86A18D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Models", "..\KnockKnock.Models\KnockKnock.Models.csproj", "{72ED44C9-622F-4228-98F2-626A170016B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Data", "..\KnockKnock.Data\KnockKnock.Data\KnockKnock.Data.csproj", "{3AC2F353-492E-460A-A459-9966A7DA1F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.Data.Models", "..\KnockKnock.Data\KnockKnock.Data.Models\KnockKnock.Data.Models.csproj", "{43F77587-3408-4290-879E-C107ED944114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.ServiceStack", "KnockKnock.ServiceStack\KnockKnock.ServiceStack.csproj", "{A29DB528-58ED-476A-BDBF-3AC51580DBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnockSS.ServiceInterface", "KnockKnockSS.ServiceInterface\KnockKnockSS.ServiceInterface.csproj", "{B50970E9-DF81-409E-AF76-FBEE82494337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.ServiceModel", "KnockKnock.ServiceModel\KnockKnock.ServiceModel.csproj", "{CEDC1CD0-2E7D-467A-A62F-BB2CC3651F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockKnock.ServiceStackTests", "KnockKnock.ServiceStackTests\KnockKnock.ServiceStackTests.csproj", "{E187628B-4585-4CA3-B9EB-61B83C3966F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E1E699-E21D-48B3-A4CE-9507C86A18D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1E699-E21D-48B3-A4CE-9507C86A18D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1E699-E21D-48B3-A4CE-9507C86A18D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1E699-E21D-48B3-A4CE-9507C86A18D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ED44C9-622F-4228-98F2-626A170016B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC2F353-492E-460A-A459-9966A7DA1F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC2F353-492E-460A-A459-9966A7DA1F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC2F353-492E-460A-A459-9966A7DA1F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC2F353-492E-460A-A459-9966A7DA1F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F77587-3408-4290-879E-C107ED944114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29DB528-58ED-476A-BDBF-3AC51580DBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29DB528-58ED-476A-BDBF-3AC51580DBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29DB528-58ED-476A-BDBF-3AC51580DBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29DB528-58ED-476A-BDBF-3AC51580DBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50970E9-DF81-409E-AF76-FBEE82494337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50970E9-DF81-409E-AF76-FBEE82494337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50970E9-DF81-409E-AF76-FBEE82494337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50970E9-DF81-409E-AF76-FBEE82494337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDC1CD0-2E7D-467A-A62F-BB2CC3651F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDC1CD0-2E7D-467A-A62F-BB2CC3651F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDC1CD0-2E7D-467A-A62F-BB2CC3651F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDC1CD0-2E7D-467A-A62F-BB2CC3651F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E187628B-4585-4CA3-B9EB-61B83C3966F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E187628B-4585-4CA3-B9EB-61B83C3966F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E187628B-4585-4CA3-B9EB-61B83C3966F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E187628B-4585-4CA3-B9EB-61B83C3966F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tsitfs:8080/tfs/tsi%20technology
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KnockKnock.Server\\KnockKnock.Server.csproj
+		SccProjectName1 = KnockKnock.Server
+		SccLocalPath1 = KnockKnock.Server
+		SccProjectUniqueName2 = ..\\KnockKnock.Models\\KnockKnock.Models.csproj
+		SccProjectName2 = ../KnockKnock.Models
+		SccLocalPath2 = ..\\KnockKnock.Models
+		SccProjectUniqueName3 = ..\\KnockKnock.Data\\KnockKnock.Data\\KnockKnock.Data.csproj
+		SccProjectName3 = ../KnockKnock.Data/KnockKnock.Data
+		SccLocalPath3 = ..\\KnockKnock.Data\\KnockKnock.Data
+		SccProjectUniqueName4 = ..\\KnockKnock.Data\\KnockKnock.Data.Models\\KnockKnock.Data.Models.csproj
+		SccProjectName4 = ../KnockKnock.Data/KnockKnock.Data.Models
+		SccLocalPath4 = ..\\KnockKnock.Data\\KnockKnock.Data.Models
+		SccProjectUniqueName5 = KnockKnock.ServiceStack\\KnockKnock.ServiceStack.csproj
+		SccProjectName5 = KnockKnock.ServiceStack
+		SccLocalPath5 = KnockKnock.ServiceStack
+		SccProjectUniqueName6 = KnockKnockSS.ServiceInterface\\KnockKnockSS.ServiceInterface.csproj
+		SccProjectName6 = KnockKnockSS.ServiceInterface
+		SccLocalPath6 = KnockKnockSS.ServiceInterface
+		SccProjectUniqueName7 = KnockKnock.ServiceModel\\KnockKnock.ServiceModel.csproj
+		SccProjectName7 = KnockKnock.ServiceModel
+		SccLocalPath7 = KnockKnock.ServiceModel
+		SccProjectUniqueName8 = KnockKnock.ServiceStackTests\\KnockKnock.ServiceStackTests.csproj
+		SccProjectName8 = KnockKnock.ServiceStackTests
+		SccLocalPath8 = KnockKnock.ServiceStackTests
+	EndGlobalSection
+EndGlobal
