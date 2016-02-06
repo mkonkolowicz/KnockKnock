@@ -195,7 +195,6 @@ C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\KnockKnock.Models.d
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.AspNet.Identity.Core.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.Owin.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -209,8 +208,6 @@ C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.Owin.Secu
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.Web.Infrastructure.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Newtonsoft.Json.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Owin.dll
-C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Swashbuckle.Core.dll
-C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Net.Http.Formatting.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.Helpers.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.Http.dll
@@ -222,7 +219,6 @@ C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.Razor.dl
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.WebPages.Deployment.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.WebPages.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.WebPages.Razor.dll
-C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\WebActivatorEx.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\WebGrease.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Raven.Database.dll
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Raven.Client.Lightweight.dll
@@ -232,7 +228,6 @@ C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\KnockKnock.Data.Mod
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\KnockKnock.Data.pdb
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\KnockKnock.Models.pdb
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\Newtonsoft.Json.xml
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Net.Http.Formatting.xml
 C:\GitHub\KnockKnock\KnockKnock.Server\KnockKnock.Server\bin\System.Web.Helpers.xml
