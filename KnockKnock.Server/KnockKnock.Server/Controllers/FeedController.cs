@@ -23,17 +23,7 @@ namespace KnockKnock.Server.Controllers
                 Radius = radius
             };
 
-            Feed[] feeds;
-
-            try
-            {
-                feeds = (await Repository.GetFeedsAsync(criteria)).ToArray();
-            }
-            catch (Exception exception)
-            {
-
-                return InternalServerError(exception);
-            }
+            var feeds = (await Repository.GetFeedsAsync(criteria)).ToArray();
 
             if (!feeds.Any())
             {
@@ -54,9 +44,9 @@ namespace KnockKnock.Server.Controllers
                 var id = await Repository.SaveFeedAsync(feed);
                 return Ok(id);
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-                return InternalServerError(exception);
+                return InternalServerError();
             }
         }
     }

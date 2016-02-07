@@ -27,17 +27,8 @@ namespace KnockKnock.Server.Controllers
                 },
                 Radius = radius
             };
-            Knock [] knocks;
+            var knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
 
-            try
-            {
-                knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
-            }
-            catch (Exception exception)
-            {
-                return InternalServerError(exception);
-            }
-            
             if (!knocks.Any())
             {
                 return Ok();
@@ -52,17 +43,8 @@ namespace KnockKnock.Server.Controllers
             {
                 FeedId = feedId
             };
+            var knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
 
-            Knock[] knocks;
-            try
-            {
-                knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
-            }
-            catch (Exception exception)
-            {
-                return InternalServerError(exception);
-            }
-            
             if (!knocks.Any())
             {
                 return Ok();
@@ -83,9 +65,9 @@ namespace KnockKnock.Server.Controllers
                 var id = await Repository.SaveKnockAsync(knock);
                 return Ok(id);
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-                return InternalServerError(exception);
+                return InternalServerError();
             }
         }
 
