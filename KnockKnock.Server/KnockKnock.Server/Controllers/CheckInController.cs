@@ -3,7 +3,6 @@
 namespace KnockKnock.Server.Controllers
 {
     using System.Web.Http;
-    using KnockKnock.Models;
     using Data;
     public class CheckInController : ApiController
     {

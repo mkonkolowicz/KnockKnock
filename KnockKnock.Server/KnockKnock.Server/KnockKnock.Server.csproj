@@ -298,15 +298,15 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\KnockKnock.Data\KnockKnock.Data.Models\KnockKnock.Data.Models.csproj">
+    <ProjectReference Include="..\KnockKnock.Data.Models\KnockKnock.Data.Models.csproj">
       <Project>{43f77587-3408-4290-879e-c107ed944114}</Project>
       <Name>KnockKnock.Data.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\KnockKnock.Data\KnockKnock.Data\KnockKnock.Data.csproj">
+    <ProjectReference Include="..\KnockKnock.Data\KnockKnock.Data.csproj">
       <Project>{3ac2f353-492e-460a-a459-9966a7da1f7f}</Project>
       <Name>KnockKnock.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\KnockKnock.Models\KnockKnock.Models.csproj">
+    <ProjectReference Include="..\KnockKnock.Models\KnockKnock.Models.csproj">
       <Project>{72ed44c9-622f-4228-98f2-626a170016b4}</Project>
       <Name>KnockKnock.Models</Name>
     </ProjectReference>
