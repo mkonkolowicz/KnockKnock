@@ -60,15 +60,16 @@ namespace KnockKnock.Server.Controllers
             {
                 return Ok();
             }
+            string id;
             try
             {
-                var id = await Repository.SaveKnockAsync(knock);
-                return Ok(id);
+                id = await Repository.SaveKnockAsync(knock);
             }
-            catch (Exception)
+            catch (Exception exception)
             {
-                return InternalServerError();
+                return InternalServerError(exception);
             }
+            return Ok(id);
         }
 
     }

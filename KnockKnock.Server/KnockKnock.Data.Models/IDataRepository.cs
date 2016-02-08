@@ -1,9 +1,11 @@
-﻿namespace KnockKnock.Data.Models
+﻿using KnockKnock.Models;
+
+namespace KnockKnock.Data.Models
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
-
-    using KnockKnock.Models;
+    
+    
 
     public interface IDataRepository
     {
