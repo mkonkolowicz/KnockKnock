@@ -10,7 +10,7 @@ namespace KnockKnock.Server.Controllers
     using KnockKnock.Data;
     using KnockKnock.Data.Models;
     using KnockKnock.Models;
-    
+
     public class KnockController : ApiController
     {
         private static readonly IDataRepository Repository = DataRepository.Singleton;
@@ -43,7 +43,16 @@ namespace KnockKnock.Server.Controllers
             {
                 FeedId = feedId
             };
-            var knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
+
+            Knock[] knocks;
+            try
+            {
+                knocks = (await Repository.GetKnocksAsync(criteria)).ToArray();
+            }
+            catch (Exception exception)
+            {
+                return InternalServerError(exception);
+            }
 
             if (!knocks.Any())
             {
