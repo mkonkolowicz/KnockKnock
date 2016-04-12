@@ -1,0 +1,9 @@
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\bin\Debug\TopGunSyllabus.Core.dll
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\bin\Debug\TopGunSyllabus.Core.pdb
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\obj\Debug\TopGunSyllabus.Core.csprojResolveAssemblyReference.cache
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\obj\Debug\TopGunSyllabus.Core.dll
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\obj\Debug\TopGunSyllabus.Core.pdb
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\obj\Debug\TopGunSyllabus.Core.dll.mdb
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\bin\Debug\TopGunSyllabus.Core.dll.mdb
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\obj\Debug\TopGunSyllabus.Core.dll.mdb
+C:\Github\TopGunSyllabus\TopGunSyllabus\TopGunSyllabus.Core\bin\Debug\TopGunSyllabus.Core.dll.mdb
