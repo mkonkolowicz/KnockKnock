@@ -16,7 +16,9 @@ namespace XamlEx
             //MainPage = new ListViewEx();
             //MainPage = new ListViewEx2();
             //MainPage = new XFPage2();
-            MainPage = new XFPage3();
+            //MainPage = new XFPage3();
+            MainPage = //new CoursePage(PluralsightCourse.GetCourseList().First());
+                new NavigationPage( new HomePage());
         }
         
         protected override void OnStart()

@@ -37,6 +37,11 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="CourseCell.cs" />
+    <Compile Include="CourseMasterDetailDB.cs" />
+    <Compile Include="CourseMasterDetail.cs" />
+    <Compile Include="CoursePageDB.cs" />
+    <Compile Include="CoursePage.cs" />
+    <Compile Include="HomePage.cs" />
     <Compile Include="ListViewEx.cs" />
     <Compile Include="ListViewEx2.cs" />
     <Compile Include="MyPage.xaml.cs">
